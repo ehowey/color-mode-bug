@@ -17,6 +17,8 @@ const HomePage = () => {
   const [mode] = useColorMode()
   const isDark = mode === "dark"
 
+  console.log(mode)
+
   return (
     <Layout>
       <Themed.h1>Color Mode Bug Reproduction</Themed.h1>
